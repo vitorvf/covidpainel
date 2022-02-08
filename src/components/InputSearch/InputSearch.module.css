@@ -1,0 +1,90 @@
+.box {
+  padding: 30px;
+  background: #212529;
+  max-width: 400px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 50px;
+  transition: all 0.3s ease 0s;
+  border-radius: 6px;
+}
+
+.h1Busca {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.search {
+  margin: 20px auto;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.btnSearch {
+  padding: 11px 30px;
+  color: white;
+  background: #212529;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  box-shadow: inset 0 0 1em #212529, 0 0 1em #1b1b1b;
+}
+
+.pBusca {
+  color: white;
+  font-size: 15px;
+}
+
+.painelTextposition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.introtexth1 {
+  font-size: 24px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.introtextp {
+  font-size: 16px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.posicaoTextPainel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 76px;
+}
+
+.positionInput {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 220px;
+  display: flex;
+}
+
+.posicaoTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.erro {
+  color: white;
+}
+
+.loadingcor {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}

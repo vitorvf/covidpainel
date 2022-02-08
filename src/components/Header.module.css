@@ -1,0 +1,16 @@
+.titulo {
+  color: red;
+}
+
+.precoTotal {
+  color: blue;
+}
+
+.textWhite {
+  text-decoration: none;
+  color: white;
+}
+
+.textWhite:hover {
+  color: #b5b5b5;
+}

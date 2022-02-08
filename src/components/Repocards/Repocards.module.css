@@ -1,0 +1,48 @@
+#cardBrazil {
+  width: 445px;
+  height: 220px;
+  background-color: #262626;
+  color: #fff;
+  padding: 20px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+  animation-name: cards;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+}
+
+#cardBrazil::after {
+  bottom: 94px;
+  content: '';
+  border-radius: 100px;
+  position: relative;
+  display: block;
+  width: 5px;
+  height: 30px;
+  left: 405px;
+  background-color: #0beb5d;
+  margin-left: 20px;
+}
+
+.paragrafro {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0.5rem !important;
+}
+
+.tituloCards {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+}
+
+.paragrafroCasos {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1.5rem !important;
+}
+
+p {
+  margin: 8px 0px 0px !important;
+}
